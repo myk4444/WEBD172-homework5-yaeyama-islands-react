@@ -1,16 +1,42 @@
-# React + Vite
+# WEBD 172 Homework 5 – Yaeyama Islands Guide
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A small React application created for WEBD 172 to practice core React concepts including reusable components, props, destructuring, `map()`, and `useState`.
 
-Currently, two official plugins are available:
+## Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This project is a simple travel guide featuring five islands in the Yaeyama Islands of Okinawa, Japan.
 
-## React Compiler
+The app displays island information using reusable React components and includes a button that allows users to show or hide the island cards.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Featured Islands
 
-## Expanding the ESLint configuration
+- Ishigaki Island
+- Taketomi Island
+- Iriomote Island
+- Kohama Island
+- Hateruma Island
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## React Concepts Used
+
+- Functional components
+- Props
+- Prop destructuring
+- Array data
+- `map()`
+- `useState`
+- Conditional rendering
+- Reusable components
+- Basic CSS styling
+
+## Components
+
+- `App.jsx` – stores the island data and manages the show/hide state
+- `IslandList.jsx` – receives the island array and uses `map()` to create the cards
+- `IslandCard.jsx` – reusable component that displays each island's title and description
+
+## Run the Project
+
+Install dependencies:
+
+```bash
+npm install
